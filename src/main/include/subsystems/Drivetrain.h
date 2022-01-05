@@ -15,13 +15,13 @@ class Drivetrain : public frc2::SubsystemBase {
   void Drive(double speed, double rotation);
   void DriveUsingPower(double leftSpeed, double rightSpeed);
 
-  static std::shared_ptr<rev::CANSparkMax> leftPrimarySpark;
-  static std::shared_ptr<rev::CANSparkMax> rightPrimarySpark;
   static std::shared_ptr<frc::DifferentialDrive> robotDrive;
   
  private:
+  std::shared_ptr<rev::CANSparkMax> leftPrimarySpark;
+  std::shared_ptr<rev::CANSparkMax> rightPrimarySpark;
+  
   std::shared_ptr<rev::CANSparkMax> leftFollowerSpark1;
-
   std::shared_ptr<rev::CANSparkMax> rightFollowerSpark1;
 
   // currently unused

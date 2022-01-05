@@ -5,23 +5,18 @@
 #include "subsystems/Drivetrain.h"
 #include "Constants.h"
 
-std::shared_ptr<rev::CANSparkMax> Drivetrain::leftPrimarySpark;
-std::shared_ptr<rev::CANSparkMax> Drivetrain::rightPrimarySpark;
 std::shared_ptr<frc::DifferentialDrive> Drivetrain::robotDrive;
 
 Drivetrain::Drivetrain() {
-    leftPrimarySpark = std::make_shared<rev::CANSparkMax>(Constants::MotorIDs::driveLeftPrimary, rev::CANSparkMax::MotorType::kBrushless);
-    leftFollowerSpark1 = std::make_shared<rev::CANSparkMax>(Constants::MotorIDs::driveLeftFollower1, rev::CANSparkMax::MotorType::kBrushless);
-    rightPrimarySpark = std::make_shared<rev::CANSparkMax>(Constants::MotorIDs::driveRightPrimary, rev::CANSparkMax::MotorType::kBrushless);
-    rightFollowerSpark1 = std::make_shared<rev::CANSparkMax>(Constants::MotorIDs::driveRightFollower1, rev::CANSparkMax::MotorType::kBrushless);
+    leftPrimarySpark.reset(new rev::CANSparkMax(Constants::MotorIDs::driveLeftPrimary, rev::CANSparkMax::MotorType::kBrushless));
+    //leftFollowerSpark1 = std::make_shared<rev::CANSparkMax>(Constants::MotorIDs::driveLeftFollower1, rev::CANSparkMax::MotorType::kBrushless);
+    rightPrimarySpark.reset(new rev::CANSparkMax(Constants::MotorIDs::driveRightFollower1, rev::CANSparkMax::MotorType::kBrushless));
+    // rightFollowerSpark1 = std::make_shared<rev::CANSparkMax>(Constants::MotorIDs::driveRightFollower1, rev::CANSparkMax::MotorType::kBrushless);
 
-    rightPrimarySpark->SetInverted(true);
-
-    leftFollowerSpark1->Follow(*leftPrimarySpark, true);
-    rightFollowerSpark1->Follow(*rightPrimarySpark, true);
-
-    leftFollowerSpark1->SetInverted(false);
-    rightFollowerSpark1->SetInverted(false);
+    //leftPrimarySpark->SetIdleMode(rev::CANSparkMax::IdleMode::kCoast);
+    //leftFollowerSpark1->SetIdleMode(rev::CANSparkMax::IdleMode::kCoast);
+    //leftFollowerSpark1->Follow(*leftPrimarySpark, true);
+    // rightFollowerSpark1->Follow(*rightPrimarySpark, true);
 
     robotDrive = std::make_shared<frc::DifferentialDrive>(*leftPrimarySpark, *rightPrimarySpark);
 }
