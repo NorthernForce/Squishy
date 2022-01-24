@@ -1,0 +1,405 @@
+[
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "debug",
+    "cppPath": "C:\\Users\\histo\\.gradle\\toolchains\\frc\\2021\\roborio\\bin\\arm-frc2021-linux-gnueabi-g++.exe",
+    "cPath": "C:\\Users\\histo\\.gradle\\toolchains\\frc\\2021\\roborio\\bin\\arm-frc2021-linux-gnueabi-gcc.exe",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\bb77e5640fb729047c4888c29ecc4a91\\SparkMax-cpp-1.5.4-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\2cd9b9815aa083bdea3b1f3da2dbc901\\SparkMax-driver-1.5.4-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\3cc20a7a17bfe51d534ede34a7e7b234\\wpilibNewCommands-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\527937c9484d1d39adea87bf452a8896\\wpilibc-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\ec44f8e016b46f9394e45d89ada22e87\\ntcore-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\e8aac4c7ca2c42aa05893c746f3ea6ca\\hal-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\9da3746b6041a240794125947412e687\\wpiutil-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\445ee02bbe452590f4c7ca982ad680ed\\wpimath-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\098a654d9463d4d8a473df1d3a453af0\\chipobject-2020.10.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\a2fe2e2e3daf2f0e5023df8e0f6f9db0\\netcomm-2020.10.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\8532cc3187afd8b0c912266782ddd5ed\\visa-2020.10.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\db7ebedd4b7fc12114fd15c9b96a45dd\\cameraserver-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\f691208d38bd01cd5a7b1884686b9579\\cscore-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\f6df5669f9a6ab5558b8d7231280a7c6\\opencv-cpp-3.4.7-5-headers\\",
+      "C:\\Users\\histo\\git\\Squishy\\src\\main\\include\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\3e0356b8b3529b2dfd82ed01e35c3527\\wpilibNewCommands-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\6c19f6c98013c1dd5c049f64552dc874\\wpilibc-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\bbbea02707a3c8bb77b541f901bf8cb6\\ntcore-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\d28a145fa61b11f9e9648bfb5e40d151\\hal-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\a0a05485300c75e6286025f090e94052\\wpiutil-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\b71d15a6c2f640eaec6e288f37315a87\\wpimath-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\bfcd46401111ab144ca5c5c377cc4077\\cameraserver-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\ff554204b48212cf8621cd9a2841da44\\cscore-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\929f74a94a315ac9c5c550dd25e7dda5\\opencv-cpp-3.4.7-5-sources\\"
+    ],
+    "allLibSources": [
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\3e0356b8b3529b2dfd82ed01e35c3527\\wpilibNewCommands-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\6c19f6c98013c1dd5c049f64552dc874\\wpilibc-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\bbbea02707a3c8bb77b541f901bf8cb6\\ntcore-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\d28a145fa61b11f9e9648bfb5e40d151\\hal-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\a0a05485300c75e6286025f090e94052\\wpiutil-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\b71d15a6c2f640eaec6e288f37315a87\\wpimath-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\bfcd46401111ab144ca5c5c377cc4077\\cameraserver-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\ff554204b48212cf8621cd9a2841da44\\cscore-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\929f74a94a315ac9c5c550dd25e7dda5\\opencv-cpp-3.4.7-5-sources\\"
+    ],
+    "allLibHeaders": [
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\bb77e5640fb729047c4888c29ecc4a91\\SparkMax-cpp-1.5.4-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\2cd9b9815aa083bdea3b1f3da2dbc901\\SparkMax-driver-1.5.4-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\3cc20a7a17bfe51d534ede34a7e7b234\\wpilibNewCommands-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\527937c9484d1d39adea87bf452a8896\\wpilibc-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\ec44f8e016b46f9394e45d89ada22e87\\ntcore-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\e8aac4c7ca2c42aa05893c746f3ea6ca\\hal-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\9da3746b6041a240794125947412e687\\wpiutil-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\445ee02bbe452590f4c7ca982ad680ed\\wpimath-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\098a654d9463d4d8a473df1d3a453af0\\chipobject-2020.10.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\a2fe2e2e3daf2f0e5023df8e0f6f9db0\\netcomm-2020.10.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\8532cc3187afd8b0c912266782ddd5ed\\visa-2020.10.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\db7ebedd4b7fc12114fd15c9b96a45dd\\cameraserver-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\f691208d38bd01cd5a7b1884686b9579\\cscore-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\f6df5669f9a6ab5558b8d7231280a7c6\\opencv-cpp-3.4.7-5-headers\\",
+      "C:\\Users\\histo\\git\\Squishy\\src\\main\\include\\"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "C:\\Users\\histo\\git\\Squishy\\src\\main\\cpp\\"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "C:\\Users\\histo\\git\\Squishy\\src\\main\\include\\"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-Og",
+              "-g"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\bb77e5640fb729047c4888c29ecc4a91\\SparkMax-cpp-1.5.4-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\2cd9b9815aa083bdea3b1f3da2dbc901\\SparkMax-driver-1.5.4-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\3cc20a7a17bfe51d534ede34a7e7b234\\wpilibNewCommands-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\527937c9484d1d39adea87bf452a8896\\wpilibc-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\ec44f8e016b46f9394e45d89ada22e87\\ntcore-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\e8aac4c7ca2c42aa05893c746f3ea6ca\\hal-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\9da3746b6041a240794125947412e687\\wpiutil-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\445ee02bbe452590f4c7ca982ad680ed\\wpimath-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\098a654d9463d4d8a473df1d3a453af0\\chipobject-2020.10.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\a2fe2e2e3daf2f0e5023df8e0f6f9db0\\netcomm-2020.10.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\8532cc3187afd8b0c912266782ddd5ed\\visa-2020.10.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\db7ebedd4b7fc12114fd15c9b96a45dd\\cameraserver-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\f691208d38bd01cd5a7b1884686b9579\\cscore-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\f6df5669f9a6ab5558b8d7231280a7c6\\opencv-cpp-3.4.7-5-headers\\",
+          "C:\\Users\\histo\\git\\Squishy\\src\\main\\include\\"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "C:\\Users\\histo\\git\\Squishy\\src\\main\\cpp\\"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "C:\\Users\\histo\\git\\Squishy\\src\\main\\include\\"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  },
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "release",
+    "cppPath": "C:\\Users\\histo\\.gradle\\toolchains\\frc\\2021\\roborio\\bin\\arm-frc2021-linux-gnueabi-g++.exe",
+    "cPath": "C:\\Users\\histo\\.gradle\\toolchains\\frc\\2021\\roborio\\bin\\arm-frc2021-linux-gnueabi-gcc.exe",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\bb77e5640fb729047c4888c29ecc4a91\\SparkMax-cpp-1.5.4-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\2cd9b9815aa083bdea3b1f3da2dbc901\\SparkMax-driver-1.5.4-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\3cc20a7a17bfe51d534ede34a7e7b234\\wpilibNewCommands-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\527937c9484d1d39adea87bf452a8896\\wpilibc-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\ec44f8e016b46f9394e45d89ada22e87\\ntcore-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\e8aac4c7ca2c42aa05893c746f3ea6ca\\hal-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\9da3746b6041a240794125947412e687\\wpiutil-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\445ee02bbe452590f4c7ca982ad680ed\\wpimath-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\098a654d9463d4d8a473df1d3a453af0\\chipobject-2020.10.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\a2fe2e2e3daf2f0e5023df8e0f6f9db0\\netcomm-2020.10.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\8532cc3187afd8b0c912266782ddd5ed\\visa-2020.10.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\db7ebedd4b7fc12114fd15c9b96a45dd\\cameraserver-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\f691208d38bd01cd5a7b1884686b9579\\cscore-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\f6df5669f9a6ab5558b8d7231280a7c6\\opencv-cpp-3.4.7-5-headers\\",
+      "C:\\Users\\histo\\git\\Squishy\\src\\main\\include\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\3e0356b8b3529b2dfd82ed01e35c3527\\wpilibNewCommands-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\6c19f6c98013c1dd5c049f64552dc874\\wpilibc-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\bbbea02707a3c8bb77b541f901bf8cb6\\ntcore-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\d28a145fa61b11f9e9648bfb5e40d151\\hal-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\a0a05485300c75e6286025f090e94052\\wpiutil-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\b71d15a6c2f640eaec6e288f37315a87\\wpimath-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\bfcd46401111ab144ca5c5c377cc4077\\cameraserver-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\ff554204b48212cf8621cd9a2841da44\\cscore-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\929f74a94a315ac9c5c550dd25e7dda5\\opencv-cpp-3.4.7-5-sources\\"
+    ],
+    "allLibSources": [
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\3e0356b8b3529b2dfd82ed01e35c3527\\wpilibNewCommands-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\6c19f6c98013c1dd5c049f64552dc874\\wpilibc-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\bbbea02707a3c8bb77b541f901bf8cb6\\ntcore-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\d28a145fa61b11f9e9648bfb5e40d151\\hal-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\a0a05485300c75e6286025f090e94052\\wpiutil-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\b71d15a6c2f640eaec6e288f37315a87\\wpimath-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\bfcd46401111ab144ca5c5c377cc4077\\cameraserver-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\ff554204b48212cf8621cd9a2841da44\\cscore-cpp-2021.3.1-sources\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\929f74a94a315ac9c5c550dd25e7dda5\\opencv-cpp-3.4.7-5-sources\\"
+    ],
+    "allLibHeaders": [
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\bb77e5640fb729047c4888c29ecc4a91\\SparkMax-cpp-1.5.4-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\2cd9b9815aa083bdea3b1f3da2dbc901\\SparkMax-driver-1.5.4-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\3cc20a7a17bfe51d534ede34a7e7b234\\wpilibNewCommands-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\527937c9484d1d39adea87bf452a8896\\wpilibc-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\ec44f8e016b46f9394e45d89ada22e87\\ntcore-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\e8aac4c7ca2c42aa05893c746f3ea6ca\\hal-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\9da3746b6041a240794125947412e687\\wpiutil-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\445ee02bbe452590f4c7ca982ad680ed\\wpimath-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\098a654d9463d4d8a473df1d3a453af0\\chipobject-2020.10.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\a2fe2e2e3daf2f0e5023df8e0f6f9db0\\netcomm-2020.10.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\8532cc3187afd8b0c912266782ddd5ed\\visa-2020.10.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\db7ebedd4b7fc12114fd15c9b96a45dd\\cameraserver-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\f691208d38bd01cd5a7b1884686b9579\\cscore-cpp-2021.3.1-headers\\",
+      "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\f6df5669f9a6ab5558b8d7231280a7c6\\opencv-cpp-3.4.7-5-headers\\",
+      "C:\\Users\\histo\\git\\Squishy\\src\\main\\include\\"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "C:\\Users\\histo\\git\\Squishy\\src\\main\\cpp\\"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "C:\\Users\\histo\\git\\Squishy\\src\\main\\include\\"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-O2"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\bb77e5640fb729047c4888c29ecc4a91\\SparkMax-cpp-1.5.4-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\2cd9b9815aa083bdea3b1f3da2dbc901\\SparkMax-driver-1.5.4-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\3cc20a7a17bfe51d534ede34a7e7b234\\wpilibNewCommands-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\527937c9484d1d39adea87bf452a8896\\wpilibc-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\ec44f8e016b46f9394e45d89ada22e87\\ntcore-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\e8aac4c7ca2c42aa05893c746f3ea6ca\\hal-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\9da3746b6041a240794125947412e687\\wpiutil-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\445ee02bbe452590f4c7ca982ad680ed\\wpimath-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\098a654d9463d4d8a473df1d3a453af0\\chipobject-2020.10.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\a2fe2e2e3daf2f0e5023df8e0f6f9db0\\netcomm-2020.10.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\8532cc3187afd8b0c912266782ddd5ed\\visa-2020.10.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\db7ebedd4b7fc12114fd15c9b96a45dd\\cameraserver-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\f691208d38bd01cd5a7b1884686b9579\\cscore-cpp-2021.3.1-headers\\",
+          "C:\\Users\\histo\\.gradle\\caches\\transforms-2\\files-2.1\\f6df5669f9a6ab5558b8d7231280a7c6\\opencv-cpp-3.4.7-5-headers\\",
+          "C:\\Users\\histo\\git\\Squishy\\src\\main\\include\\"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "C:\\Users\\histo\\git\\Squishy\\src\\main\\cpp\\"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "C:\\Users\\histo\\git\\Squishy\\src\\main\\include\\"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  }
+]
