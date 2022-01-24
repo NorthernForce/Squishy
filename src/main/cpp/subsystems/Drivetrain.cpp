@@ -9,9 +9,9 @@ std::shared_ptr<frc::DifferentialDrive> Drivetrain::robotDrive;
 
 Drivetrain::Drivetrain() {
     leftPrimarySpark.reset(new rev::CANSparkMax(Constants::MotorIDs::driveLeftPrimary, rev::CANSparkMax::MotorType::kBrushless));
-    //leftFollowerSpark1 = std::make_shared<rev::CANSparkMax>(Constants::MotorIDs::driveLeftFollower1, rev::CANSparkMax::MotorType::kBrushless);
-    rightPrimarySpark.reset(new rev::CANSparkMax(Constants::MotorIDs::driveRightFollower1, rev::CANSparkMax::MotorType::kBrushless));
-    // rightFollowerSpark1 = std::make_shared<rev::CANSparkMax>(Constants::MotorIDs::driveRightFollower1, rev::CANSparkMax::MotorType::kBrushless);
+    leftFollowerSpark1 = std::make_shared<rev::CANSparkMax>(Constants::MotorIDs::driveLeftFollower1, rev::CANSparkMax::MotorType::kBrushless);
+    rightPrimarySpark.reset(new rev::CANSparkMax(Constants::MotorIDs::driveRightPrimary, rev::CANSparkMax::MotorType::kBrushless));
+    rightFollowerSpark1 = std::make_shared<rev::CANSparkMax>(Constants::MotorIDs::driveRightFollower1, rev::CANSparkMax::MotorType::kBrushless);
 
     //leftPrimarySpark->SetIdleMode(rev::CANSparkMax::IdleMode::kCoast);
     //leftFollowerSpark1->SetIdleMode(rev::CANSparkMax::IdleMode::kCoast);

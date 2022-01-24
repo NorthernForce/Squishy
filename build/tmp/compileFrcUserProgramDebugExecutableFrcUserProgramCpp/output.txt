@@ -1,61 +1,8 @@
 See file:///C:/Users/histo/git/Squishy/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
-compiling OI.cpp successful.
-In file included from C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANSparkMax.h:37:0,
-                 from C:\Users\histo\git\Squishy\src\main\include/subsystems/Drivetrain.h:8,
-                 from C:\Users\histo\git\Squishy\src\main\include/RobotContainer.h:9,
-                 from C:\Users\histo\git\Squishy\src\main\include/commands/DriveWithJoystick.h:12,
-                 from C:\Users\histo\git\Squishy\src\main\cpp\OI.cpp:5:
-C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANDigitalInput.h:42:16: warning: attribute ignored in declaration of 'enum class rev::CANDigitalInput::LimitSwitch' [-Wattributes]
-     enum class LimitSwitch { kForward, kReverse };
-                ^~~~~~~~~~~
-C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANDigitalInput.h:42:16: note: attribute for 'enum class rev::CANDigitalInput::LimitSwitch' must follow the 'enum class' keyword
-
-compiling DriveWithJoystick.cpp successful.
-In file included from C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANSparkMax.h:37:0,
-                 from C:\Users\histo\git\Squishy\src\main\include/subsystems/Drivetrain.h:8,
-                 from C:\Users\histo\git\Squishy\src\main\include/RobotContainer.h:9,
-                 from C:\Users\histo\git\Squishy\src\main\include/commands/DriveWithJoystick.h:12,
-                 from C:\Users\histo\git\Squishy\src\main\cpp\commands\DriveWithJoystick.cpp:8:
-C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANDigitalInput.h:42:16: warning: attribute ignored in declaration of 'enum class rev::CANDigitalInput::LimitSwitch' [-Wattributes]
-     enum class LimitSwitch { kForward, kReverse };
-                ^~~~~~~~~~~
-C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANDigitalInput.h:42:16: note: attribute for 'enum class rev::CANDigitalInput::LimitSwitch' must follow the 'enum class' keyword
-
-compiling RunMotor.cpp successful.
-In file included from C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANSparkMax.h:37:0,
-                 from C:\Users\histo\git\Squishy\src\main\include/subsystems/Drivetrain.h:8,
-                 from C:\Users\histo\git\Squishy\src\main\include/RobotContainer.h:9,
-                 from C:\Users\histo\git\Squishy\src\main\cpp\commands\RunMotor.cpp:6:
-C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANDigitalInput.h:42:16: warning: attribute ignored in declaration of 'enum class rev::CANDigitalInput::LimitSwitch' [-Wattributes]
-     enum class LimitSwitch { kForward, kReverse };
-                ^~~~~~~~~~~
-C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANDigitalInput.h:42:16: note: attribute for 'enum class rev::CANDigitalInput::LimitSwitch' must follow the 'enum class' keyword
-
 compiling Drivetrain.cpp successful.
 In file included from C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANSparkMax.h:37:0,
                  from C:\Users\histo\git\Squishy\src\main\include/subsystems/Drivetrain.h:8,
                  from C:\Users\histo\git\Squishy\src\main\cpp\subsystems\Drivetrain.cpp:5:
-C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANDigitalInput.h:42:16: warning: attribute ignored in declaration of 'enum class rev::CANDigitalInput::LimitSwitch' [-Wattributes]
-     enum class LimitSwitch { kForward, kReverse };
-                ^~~~~~~~~~~
-C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANDigitalInput.h:42:16: note: attribute for 'enum class rev::CANDigitalInput::LimitSwitch' must follow the 'enum class' keyword
-
-compiling RobotContainer.cpp successful.
-In file included from C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANSparkMax.h:37:0,
-                 from C:\Users\histo\git\Squishy\src\main\include/subsystems/Drivetrain.h:8,
-                 from C:\Users\histo\git\Squishy\src\main\include/RobotContainer.h:9,
-                 from C:\Users\histo\git\Squishy\src\main\cpp\RobotContainer.cpp:5:
-C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANDigitalInput.h:42:16: warning: attribute ignored in declaration of 'enum class rev::CANDigitalInput::LimitSwitch' [-Wattributes]
-     enum class LimitSwitch { kForward, kReverse };
-                ^~~~~~~~~~~
-C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANDigitalInput.h:42:16: note: attribute for 'enum class rev::CANDigitalInput::LimitSwitch' must follow the 'enum class' keyword
-
-compiling Robot.cpp successful.
-In file included from C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANSparkMax.h:37:0,
-                 from C:\Users\histo\git\Squishy\src\main\include/subsystems/Drivetrain.h:8,
-                 from C:\Users\histo\git\Squishy\src\main\include/RobotContainer.h:9,
-                 from C:\Users\histo\git\Squishy\src\main\include/Robot.h:10,
-                 from C:\Users\histo\git\Squishy\src\main\cpp\Robot.cpp:5:
 C:\Users\histo\.gradle\caches\transforms-2\files-2.1\bb77e5640fb729047c4888c29ecc4a91\SparkMax-cpp-1.5.4-headers/rev/CANDigitalInput.h:42:16: warning: attribute ignored in declaration of 'enum class rev::CANDigitalInput::LimitSwitch' [-Wattributes]
      enum class LimitSwitch { kForward, kReverse };
                 ^~~~~~~~~~~
